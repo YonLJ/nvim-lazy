@@ -226,6 +226,8 @@ require("lazy").setup({
         opts = {}
     },
 
+    {"APZelos/blamer.nvim"},
+
     {
         "nvim-lualine/lualine.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons", lazy = true },
