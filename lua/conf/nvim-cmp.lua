@@ -68,4 +68,3 @@ require('lspconfig')['intelephense'].setup { capabilities = capabilities }
 require('lspconfig')['tsserver'].setup { capabilities = capabilities }
 require('lspconfig')['html'].setup { capabilities = capabilities }
 require('lspconfig')['cssls'].setup { capabilities = capabilities }
-

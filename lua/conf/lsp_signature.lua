@@ -15,4 +15,3 @@ require("lsp_signature").setup({
     -- 正在输入的参数将如何突出显示
     hi_parameter = "LspSignatureActiveParameter"
 })
-
