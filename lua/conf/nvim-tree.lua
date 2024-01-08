@@ -4,8 +4,6 @@ require("nvim-tree").setup({
     view = {
         -- 宽度
         width = 30,
-        -- 隐藏顶部的根目录显示
-        hide_root_folder = false,
         -- 居左显示
         side = "left"
     },
