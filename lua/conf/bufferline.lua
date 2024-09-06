@@ -6,7 +6,10 @@ require("bufferline").setup({
         -- 使用内置 LSP 进行诊断
         diagnostics = "nvim_lsp",
         -- 不建议更改图标
-        indicator_icon = "▎",
+        indicator = {
+            icon = "▎",
+            style = "underline",
+        },
         modified_icon = "●",
         close_icon = "",
         left_trunc_marker = "",

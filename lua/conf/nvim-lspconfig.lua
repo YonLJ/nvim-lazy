@@ -23,7 +23,7 @@ local lspconfig = require('lspconfig')
 lspconfig.intelephense.setup {}
 lspconfig.cssls.setup {}
 lspconfig.html.setup {}
-lspconfig.tsserver.setup {}
+lspconfig.ts_ls.setup {}
 lspconfig.eslint.setup {}
 
 -- Global mappings.
